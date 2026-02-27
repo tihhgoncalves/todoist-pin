@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.getElementById("status");e&&(e.textContent="Todoist Pin Ativo"),chrome.tabs.query({active:!0,currentWindow:!0},e=>{e[0]&&chrome.tabs.sendMessage(e[0].id,{action:"ping"},e=>{console.log("Response:",e)})})});
+//# sourceMappingURL=popup.js.map

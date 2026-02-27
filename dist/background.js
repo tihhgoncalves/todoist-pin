@@ -1,0 +1,2 @@
+chrome.runtime.onInstalled.addListener(()=>{console.log("Todoist Pin extensão instalada")}),chrome.runtime.onMessage.addListener((e,n,o)=>{"ping"===e.action&&o({status:"pong"})});
+//# sourceMappingURL=background.js.map

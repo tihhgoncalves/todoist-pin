@@ -1,0 +1,19 @@
+{
+  "name": "todoist-pin",
+  "version": "1.0.0",
+  "description": "Fixe as tarefas na tela para acessá-las com mais facilidade.",
+  "main": "dist/background.js",
+  "author": "Tihh Gonçalves",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "start": "npm run build"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "copy-webpack-plugin": "^11.0.0"
+  },
+  "dependencies": {}
+}

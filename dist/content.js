@@ -1,0 +1,2 @@
+console.log("Todoist Pin - Content script carregado"),chrome.runtime.sendMessage({action:"ping"},o=>{"pong"===o?.status&&console.log("Background script respondeu")});
+//# sourceMappingURL=content.js.map
