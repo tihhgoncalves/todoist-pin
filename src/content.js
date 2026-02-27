@@ -252,7 +252,7 @@ console.log('[todoist pin] content.js carregado na página');
       position: 'fixed',
       right: '12px',
       bottom: '12px',
-      zIndex: 999999,
+      zIndex: 999,
       display: 'flex',
       flexDirection: 'column-reverse',
       gap: '8px',
