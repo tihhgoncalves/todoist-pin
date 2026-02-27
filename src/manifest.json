@@ -10,14 +10,14 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://todoist.com/*"
+    "https://app.todoist.com/*"
   ],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://todoist.com/*"],
+      "matches": ["https://app.todoist.com/*"],
       "js": ["content.js"],
       "css": []
     }
