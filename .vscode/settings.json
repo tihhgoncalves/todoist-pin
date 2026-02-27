@@ -67,10 +67,16 @@
             "suffix": ")",
             "options": [
                 {
+                    "label": "Sem escopo",
+                    "value": "",
+                    "description": "Sem citar nenhum contexto"
+                },
+                {
                     "label": "Projeto",
                     "value": "projeto",
                     "description": "Tudo o que envolve a estrutura ou configuração do projeto como um todo."
                 }
+                
             ]
         },
         {
