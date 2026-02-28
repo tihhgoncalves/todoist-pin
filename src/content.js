@@ -438,7 +438,7 @@ console.log('[todoist pin] content.js carregado na página');
         }
       });
 
-      closeBtn.insertAdjacentElement('afterend', btn);
+      closeBtn.insertAdjacentElement('beforebegin', btn);
     } catch (e) {
       console.error('[todoist pin] erro injectPinButtonIntoModal', e);
     }
