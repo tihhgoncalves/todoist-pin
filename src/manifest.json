@@ -5,9 +5,7 @@
   "description": "Fixe as tarefas na tela para acessá-las com mais facilidade.",
   "author": "Tihh Gonçalves",
   "permissions": [
-    "storage",
-    "activeTab",
-    "scripting"
+    "storage"
   ],
   "host_permissions": [
     "https://app.todoist.com/*"
