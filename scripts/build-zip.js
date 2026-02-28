@@ -7,7 +7,7 @@ const archiver = require('archiver');
 
 const projectRoot = path.resolve(__dirname, '..');
 const distDir = path.join(projectRoot, 'dist');
-const outputDir = path.join(projectRoot, 'releases');
+const outputDir = path.join(projectRoot, 'dist-release');
 
 // Lê a versão do package.json
 const packageJson = JSON.parse(fs.readFileSync(path.join(projectRoot, 'package.json'), 'utf8'));
