@@ -4,9 +4,6 @@
   "version": "1.0.0",
   "description": "Fixe as tarefas na tela para acessá-las com mais facilidade.",
   "author": "Tihh Gonçalves",
-  "permissions": [
-    "storage"
-  ],
   "host_permissions": [
     "https://app.todoist.com/*"
   ],
