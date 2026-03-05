@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const statusElement = document.getElementById('status');
   
   if (statusElement) {
-    statusElement.textContent = 'Todoist Pin Ativo';
+    const manifest = chrome.runtime.getManifest();
+    statusElement.textContent = `ATIVO - v${manifest.version}`;
   }
 
   // Botão para fixar tarefa

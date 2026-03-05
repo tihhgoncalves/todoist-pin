@@ -1,6 +1,6 @@
 {
   "name": "todoist-pin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fixe as tarefas na tela para acessá-las com mais facilidade.",
   "main": "dist/background.js",
   "author": "Tihh Gonçalves",
