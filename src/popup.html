@@ -43,7 +43,7 @@
     .status {
       background: rgba(255, 255, 255, 0.15);
       border-radius: 8px;
-      padding: 12px;
+      padding: 3px;
       text-align: center;
       font-size: 13px;
       border: 1px solid rgba(255, 255, 255, 0.2);
@@ -85,6 +85,15 @@
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       padding-top: 12px;
     }
+
+    .footer a{
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -96,12 +105,14 @@
 
     <div class="status" id="status">Carregando...</div>
 
+    <!-- @tihhgoncalves - Desativado por enquanto
     <div class="actions">
       <button id="pinButton">📌 Fixar tarefa</button>
       <button id="settingsButton">⚙️ Configurações</button>
     </div>
+    -->
 
-    <div class="footer">Desenvolvido por Tihh Gonçalves</div>
+    <div class="footer">Desenvolvido por <a href="https://tihhgoncalves.com.br?utm_source=todoist_pin" target="_blank">@tihhgoncalves</a></div>
   </div>
 
   <script src="popup.js"></script>
